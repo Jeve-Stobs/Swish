@@ -1,6 +1,4 @@
-## Connection
-
-## Payloads
+# Payloads
 
 | Op                                  | Description   |
 |:------------------------------------|:--------------|
@@ -11,7 +9,9 @@
 | [set_pause_state](#set_pause_state) | do cool stuff |
 | [set_position](#set_position)       | do cool stuff |
 | [set_filter](#set_filter)           | do cool stuff |
-| **[event](#event)**                 | do cool stuff |
+| \***[event](#event)**               | do cool stuff |
+
+*<sub>Payloads that are sent *from* Swish to clients.</sub>
 
 ### voice_update
 
@@ -71,7 +71,8 @@
   "op": "set_pause_state",
   "d": {
     "guild_id": "490948346773635102",
-    "state": true // true = pause, false = resume.
+    "state": true
+    // true = pause, false = resume.
   }
 }
 ```
@@ -83,7 +84,8 @@
   "op": "set_position",
   "d": {
     "guild_id": "490948346773635102",
-    "position": 1000 // milliseconds, 1 second = 1000 milliseconds.
+    "position": 1000
+    // milliseconds, 1 second = 1000 milliseconds.
   }
 }
 ```

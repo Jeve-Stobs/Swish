@@ -3,8 +3,8 @@
 Swish does stuff and things idk I don't write about stuff
 
 ### WebSocket
-- [Connection](WS.md#Connection)
-- [Payload](WS.md#Payloads)
+- [Protocol](websocket/protocol.md)
+- [Payload](websocket/payloads.md)
 
 ### Rest API
-- [Search](REST.md#Search)
+- [Search](rest/search.md)
